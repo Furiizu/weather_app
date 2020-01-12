@@ -50,7 +50,7 @@ class _FormWeatherState extends State<FormWeather> {
       padding: EdgeInsets.symmetric(horizontal: 8),
       child: DropdownButtonFormField(
         decoration: InputDecoration(
-          icon: Icon(Icons.person),
+          icon: Icon(Icons.flag),
           labelText: "Negara",
         ),
         items: dropDownItem.map((x) {
